@@ -5,15 +5,7 @@ import './App.css';
 
 
 function App() {
-  // const [count, setCount] = useState(0);
   const counter = useSelector(state => state.counter);
-
-  // const dispatch = useDispatch();
-  
-  // To trigger an increment, decrement:
-  // dispatch(allActions.counterActions.increment());
-
-
 
   return (
     <div>
