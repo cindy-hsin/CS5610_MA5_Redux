@@ -21,9 +21,9 @@ export default function Cell(props) {
 
   useEffect(()=>{
     if (isOn) {
-      dispatch(allActions.counter.increment());
+      dispatch(allActions.counterActions.increment());
     } else if (counter > 0) { // to prevent decrementing at the first render
-      dispatch(allActions.counter.decrement());
+      dispatch(allActions.counterActions.decrement());
     }
   }, [isOn]);
 

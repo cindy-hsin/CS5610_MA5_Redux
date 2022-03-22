@@ -28,3 +28,5 @@ const rootReducer = combineReducers({
   // other reducers here
 })
 // This is the shorthand for: combineReducers({counter: counter})
+
+export default rootReducer;

@@ -17,11 +17,14 @@ function App() {
 
   return (
     <div>
-      <div>Counter: {counter}</div>
-      <Cell />
-      <Cell />
-      <Cell />
-      <Cell />
+      <div className='counterTitle'>Counter: {counter}</div>
+      <div className='grid'>
+        <Cell />
+        <Cell />
+        <Cell />
+        <Cell />
+      </div>
+
     </div>
   );
 
