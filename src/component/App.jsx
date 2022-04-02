@@ -5,6 +5,7 @@ import './App.css';
 
 
 function App() {
+  console.log("App re-rendered");
   const counter = useSelector(state => state.counter);
 
   return (
